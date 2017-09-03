@@ -16,7 +16,7 @@ Date: Sep 3, 2017
 
  1. This algorithm can be run in a row by the command:
  	```matlab
-		Demo
+		>> Demo
 	```
 
  2. This algorithm reads the input images from the folder `images`, and generates two resulting folders:
