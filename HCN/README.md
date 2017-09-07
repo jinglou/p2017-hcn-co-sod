@@ -23,4 +23,4 @@ Date: Sep 8, 2017
 	 1. `HCNs`     Saliency maps
 	 2. `HCNco`    Co-saliency maps
 
- 3. To regenerate the saliency maps of CNS [17] and RBD [26], please delete the subfolders `<L1>, <L2>, and <L3>` in the folders `<CNS> and <RBD>`.
+ 3. To regenerate the single-layer saliency maps of CNS [17] and RBD [26], please delete the subfolders `<L1>, <L2>, and <L3>` in the folders `<CNS> and <RBD>`.
