@@ -1,6 +1,7 @@
 <div align="center"><img class="aligncenter" src="https://raw.githubusercontent.com/jinglou/p2017-hcn-co-sod/master/figs/fig1.png" alt="Hierarchical Co-salient Object Detection via Color Names - Framework" title="Hierarchical Co-salient Object Detection via Color Names - Framework" width="100%"/></div>
 <div text-align="center">Figure 1: Pipeline of the proposed model. SM and Co-SM are abbreviations for saliency map and co-saliency map, respectively.</div>
 
+<br/>
 
 ## Paper
  - **Jing Lou**, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names," in *Proceedings of the Asian Conference on Pattern Recognition* (**ACPR**), pp. 1-7, 2017. <!--[doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7 "doi:10.1007/s11042-016-4025-7")-->
