@@ -9,6 +9,6 @@
 
  - Project page: [http://www.loujing.com/hco-co-sod/](http://www.loujing.com/hco-co-sod/)
 
- <!--- These resources are also available at my [Baidu Cloud (百度网盘)](http://pan.baidu.com/s/1kUByzrx#list/path=%2Fresearch%2Fp2016-rss-small-target&parentPath=%2F).-->
+ - These resources are also available at my [Baidu Cloud (百度网盘)](https://pan.baidu.com/s/1kUByzrx#list/path=%2Fresearch%2Fp2017-hcn-co-sod).
 
 Copyright (C) 2017 [Jing Lou (楼竞)](http://www.loujing.com)
