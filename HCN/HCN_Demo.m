@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% This code implements the HCN salient/co-salient object detection algorithm in the following paper:
+% This code implements the proposed salient/co-salient object detection algorithm in the following paper:
 % 
 % Jing Lou, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names,"
 % in Proceedings of the Asian Conference on Pattern Recognition (ACPR), pp. 1-7, 2017.
@@ -169,7 +169,8 @@ for imgno = 1:length(imgs)
 	corr = smap_mLayerL1 .* smap_mLayerL2 .* smap_mLayerL3;
 	weightMat = mat2gray(calcWeight(img));
 	S_s = imreconstruct(corr, imadd(weightMat.^3.*corr.^3, newMap.^3)).^3;
-	imwrite(S_s, [smPath, imgname(1:end-4), '_HCNs.png']);		% Saliency maps
+	% Save saliency maps
+	imwrite(S_s, [smPath, imgname(1:end-4), '_HCNs.png']);
 
 	t2 = clock;
 	fprintf('(Time: %fs)\n', etime(t2,t1));
@@ -188,7 +189,7 @@ for imgno = 1:length(imgs)
 	
 	if strcmp(imgname(end-4),'2')
 		tmpname = imgname(1:end-5);
-		fprintf('%03d/%03d - %s\n', imgno/2, length(imgs)/2, tmpname);
+		fprintf('%03d/%03d - %s ', imgno/2, length(imgs)/2, tmpname);
 		
 		img1 = imread([imgPath, tmpname, '1', imgSuff]);
 		img2 = imread([imgPath, tmpname, '2', imgSuff]);
@@ -261,12 +262,14 @@ for imgno = 1:length(imgs)
 		end
 		
 		% Save co-saliency maps
-		cosm1 = imfill(cosm1,'holes');
+		cosm1 = imfill(cosm1, 'holes');
 		cosm1(cosm1 <= 2*mean(cosm1(:))) = 0;
-		cosm2 = imfill(cosm2,'holes');
+		cosm2 = imfill(cosm2, 'holes');
 		cosm2(cosm2 <= 2*mean(cosm2(:))) = 0;
 		imwrite(cosm1, [cosmPath, tmpname, '1_HCNco.png']);
+		fprintf('.');
 		imwrite(cosm2, [cosmPath, tmpname, '2_HCNco.png']);
+		fprintf('.\n');
 	end
 end
 fprintf('\n=======END=======\n\n');

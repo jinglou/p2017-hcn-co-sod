@@ -18,8 +18,8 @@
 
 function [noFrameImg, frameWidth] = removeFrame(img)
 %REMOVEFRAME removes the image frame of IMG
-%   If FRAMEWIDTH equals to zero, IMG has no frame
-%   The border width is assumed to be fixed and no more than 15 pixels
+%   - If FRAMEWIDTH equals to zero, IMG has no frame
+%   - The border width is assumed to be fixed and no more than 15 pixels
 
 if ndims(img) == 3
 	gray = rgb2gray(img);
