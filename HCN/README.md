@@ -19,9 +19,9 @@ Date: Sep 8, 2017
     >> HCN_Demo
 	```
 
- 2. This algorithm reads the input images from the folder `images` and generates two resultant folders:
-	 1. `HCNs`     Saliency maps
-	 2. `HCNco`    Co-saliency maps
+ 2. This algorithm reads the input images from the folder `<images>` and generates two resultant folders:
+	 1. `<HCNs>`     Saliency maps
+	 2. `<HCNco>`    Co-saliency maps
 
  3. To regenerate the single-layer saliency maps of CNS [17] and RBD [26], please **DELETE** the subfolders `<L1>, <L2>, and <L3>` in the folders `<CNS> and <RBD>` and rerun `HCN_Demo`.
 
