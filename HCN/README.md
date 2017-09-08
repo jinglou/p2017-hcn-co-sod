@@ -9,7 +9,7 @@ This code implements the proposed salient/co-salient object detection algorithm 
 
 Copyright (C) 2017 [Jing Lou (楼竞)](http://www.loujing.com/)
 
-Date: Sep 8, 2017
+Date: Sep 9, 2017
 
 
 ### Notes:
