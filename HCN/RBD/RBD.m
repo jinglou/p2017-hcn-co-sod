@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % This code is for [1], and can only be used for non-comercial purpose. If
 % you use our code, please cite [1].
@@ -11,15 +11,15 @@
 %     In CVPR, 2014.
 % 
 %
-% Notes (Jing Lou):
+% Notes (Jing Lou, http://www.loujing.com/hcn-co-sod/):
 %   - In order to integrate RBD into the proposed HCN model, we remove some
 %     codes and produce a simplified version as follows:
 %       1. To generate 3 single-layer saliency maps, we directly feed the 
 %          three layers (noFrameImg) to the superpixel segmentation module.
-%       2. We add a module for adjustment of intensity of the resultant
-%          single-layer saliency maps (Line #60).
+%       2. We add a post-processing module for adjustment of intensity of
+%          each resultant single-layer saliency map (Line #60).
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function RBD(img, imgname, layer, param)
 
