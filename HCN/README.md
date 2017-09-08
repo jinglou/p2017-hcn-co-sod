@@ -24,3 +24,5 @@ Date: Sep 8, 2017
 	 2. `HCNco`    Co-saliency maps
 
  3. To regenerate the single-layer saliency maps of CNS [17] and RBD [26], please delete the subfolders `<L1>, <L2>, and <L3>` in the folders `<CNS> and <RBD>` and rerun `HCN_Demo`.
+
+ 4. We have noted that different versions of MATLAB have substantial influences on the edge detection results. In our experiments, both CNS, RBD, and HCN are all run in MATLAB R2017a (version 9.2).

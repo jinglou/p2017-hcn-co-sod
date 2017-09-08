@@ -5,6 +5,10 @@
 % 
 % Project page: http://www.loujing.com/hcn-co-sod/
 %
+% Notes:
+%   - We have noted that different versions of MATLAB have substantial influences on the edge detection results.
+%     In our experiments, both CNS, RBD, and HCN are all run in MATLAB R2017a (version 9.2).
+%
 % References:
 %   [26] W. Zhu, S. Liang, Y. Wei, and J. Sun, "Saliency optimization from robust background detection,"
 %        in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2814¨C2821.
