@@ -1,17 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
+% 
 % Jing Lou, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names,"
 % in Proceedings of the Asian Conference on Pattern Recognition (ACPR), pp. 1-7, 2017.
 % 
 % Project page: http://www.loujing.com/hcn-co-sod/
 %
+% References:
+%   [26] W. Zhu, S. Liang, Y. Wei, and J. Sun, "Saliency optimization from robust background detection,"
+%        in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2814¨C2821.
+%
+%
 % Copyright (C) 2017 Jing Lou (Â¥¾º)
+% 
+% The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [noFrameImg, frameWidth] = removeFrame(img)
-%REMOVEFRAME removes image frame
-%   IMG has no frame if FRAMEWIDTH equals to zero
+%REMOVEFRAME removes the image frame of IMG
+%   If FRAMEWIDTH equals to zero, IMG has no frame
 %   The border width is assumed to be fixed and no more than 15 pixels
 
 if ndims(img) == 3

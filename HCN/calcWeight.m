@@ -1,6 +1,4 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% This code implements the HCN salient/co-salient object detection algorithm in the following paper:
 % 
 % Jing Lou, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names,"
 % in Proceedings of the Asian Conference on Pattern Recognition (ACPR), pp. 1-7, 2017.
@@ -15,6 +13,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function weightMat = calcWeight(noframeimg)
+%CALCWEIGHT calculates the color names based weighting matrix WEIGHTMAT for a color image NOFRAMEIMG
 
 w2c = evalin('base','w2c');
 ColorNames = evalin('base','ColorNames');

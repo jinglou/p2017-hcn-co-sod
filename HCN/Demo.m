@@ -20,7 +20,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 clc; clear; close all;
 
 
@@ -213,7 +212,7 @@ for imgno = 1:length(imgs)
 				for m = 1:size(pixellist,1)
 					tmp1(pixellist(m,2),pixellist(m,1)) = 1;
 				end
-				[freq, avgColor] = calcFreq(tmp1, img1);
+				avgColor = calcFreq(tmp1, img1);
 				Ar_1(ino,1:3) = avgColor;
 			end
 			
@@ -224,7 +223,7 @@ for imgno = 1:length(imgs)
 				for m = 1:size(pixellist,1)
 					tmp2(pixellist(m,2),pixellist(m,1)) = 1;
 				end
-				[freq, avgColor] = calcFreq(tmp2, img2);
+				avgColor = calcFreq(tmp2, img2);
 				Ar_2(jno,1:3) = avgColor;
 			end
 			

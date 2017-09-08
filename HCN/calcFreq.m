@@ -1,6 +1,4 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% This code implements the HCN salient/co-salient object detection algorithm in the following paper:
 % 
 % Jing Lou, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names,"
 % in Proceedings of the Asian Conference on Pattern Recognition (ACPR), pp. 1-7, 2017.
@@ -14,7 +12,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [freq, avgColor] = calcFreq(bw, img)
+function avgColor = calcFreq(bw, img)
+%CALCFREQ exploits color names to compute the average RGB color values (3-D) of a foreground region,
+% which is generated using the corresponding binary image BW and the original input image IMG
+
 w2c = evalin('base','w2c');
 ColorNames = evalin('base','ColorNames');
 
