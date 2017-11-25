@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 
 % Jing Lou, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names,"
-% in Proceedings of the Asian Conference on Pattern Recognition (ACPR), pp. 1-7, 2017. (Spotlight)
+% in Proceedings of the Asian Conference on Pattern Recognition (ACPR), pp. 718-724, 2017. (Spotlight)
 % 
 % Project page: http://www.loujing.com/hcn-co-sod/
 %
