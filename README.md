@@ -2,7 +2,6 @@
 <div text-align="center">Figure 1: Pipeline of the proposed model. SM and Co-SM are abbreviations for saliency map and co-saliency map, respectively.</div>
 
 <br/>
-<br/>
 
 ## Paper
  - **Jing Lou**, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names," in *Proceedings of the Asian Conference on Pattern Recognition* (**ACPR**), pp. 718-724, 2017. **(Spotlight)** <!--[doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7 "doi:10.1007/s11042-016-4025-7")-->
