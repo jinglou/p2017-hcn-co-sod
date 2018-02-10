@@ -6,8 +6,8 @@
 % Project page: http://www.loujing.com/hcn-co-sod/
 %
 % References:
-%   [17] J. Lou, H. Wang, L. Chen, Q. Xia, W. Zhu, and M. Ren, "Exploiting color name space for salient object detection,"
-%        arXiv:1703.08912 [cs.CV], pp. 1¨C13, 2017.  http://www.loujing.com/cns-sod/
+%   [17] J. Lou, H. Wang, L. Chen, Q. Xia, W. Zhu, and M. Ren, "Exploiting Color Name Space for Salient Object Detection,"
+%        arXiv preprint, pp. 1¨C13, 2017.  http://www.loujing.com/cns-sod/
 %
 %
 % Copyright (C) 2017 Jing Lou (Â¥¾º)

@@ -8,8 +8,8 @@
 % Project page: http://www.loujing.com/hcn-co-sod/
 %
 % References:
-%   [17] J. Lou, H. Wang, L. Chen, Q. Xia, W. Zhu, and M. Ren, "Exploiting color name space for salient object detection,"
-%        arXiv:1703.08912 [cs.CV], pp. 1¨C13, 2017.  http://www.loujing.com/cns-sod/
+%   [17] J. Lou, H. Wang, L. Chen, Q. Xia, W. Zhu, and M. Ren, "Exploiting Color Name Space for Salient Object Detection,"
+%        arXiv preprint, pp. 1¨C13, 2017.  http://www.loujing.com/cns-sod/
 %   [26] W. Zhu, S. Liang, Y. Wei, and J. Sun, "Saliency optimization from robust background detection,"
 %        in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2014, pp. 2814¨C2821.
 %
