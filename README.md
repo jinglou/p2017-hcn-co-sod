@@ -4,9 +4,9 @@
 <br/>
 
 ## Paper
- - **Jing Lou**, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names," in *Proceedings of the Asian Conference on Pattern Recognition* (**ACPR**), pp. 718-724, 2017. **(Spotlight)** <!--[doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7 "doi:10.1007/s11042-016-4025-7")-->
+ - **Jing Lou**, Fenglei Xu, Qingyuan Xia, Wankou Yang*, Mingwu Ren*, "Hierarchical Co-salient Object Detection via Color Names," in *Proceedings of the Asian Conference on Pattern Recognition* (**ACPR**), pp. 718-724, 2017. **(Spotlight)** <!--[doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7 "doi:10.1007/s11042-016-4025-7")-->
 
- - Project page: [http://www.loujing.com/hco-co-sod/](http://www.loujing.com/hco-co-sod/)
+ - Project page: [http://www.loujing.com/hcn-co-sod/](http://www.loujing.com/hcn-co-sod/)
 
  - These resources are also available at my [Baidu Cloud (百度网盘)](https://pan.baidu.com/s/1kUByzrx#list/path=%2Fresearch%2Fp2017-hcn-co-sod).
 
