@@ -5,7 +5,7 @@ This code implements the proposed salient/co-salient object detection algorithm 
  - **Jing Lou**, Fenglei Xu, Qingyuan Xia, Wankou Yang, Mingwu Ren, "Hierarchical Co-salient Object Detection via Color Names," in *Proceedings of the Asian Conference on Pattern Recognition* (**ACPR**), pp. 718-724, 2017. **(Spotlight)**
 
  - Project page: [http://www.loujing.com/hcn-co-sod/](http://www.loujing.com/hcn-co-sod/)
- - The zipped file of the developed MATLAB code can be directly download: [HCN.zip](https://raw.githubusercontent.com/jinglou/p2017-hcn-co-sod/master/HCN.zip).
+ - The zipped file of the developed MATLAB code can be directly downloaded: [HCN.zip](https://raw.githubusercontent.com/jinglou/p2017-hcn-co-sod/master/HCN.zip).
 
 Copyright (C) 2017 [Jing Lou (楼竞)](http://www.loujing.com/)
 
