@@ -9,5 +9,3 @@ The proposed HCN model is also a salient object detection model, so we provide s
  - These resources are also available at my [Baidu Cloud (百度网盘)]().
 
 Copyright (C) 2018 [Jing Lou (楼竞)](http://www.loujing.com)
-
-The proposed HCN model is also a salient object detection model, so we provide the single-image saliency maps on the following benchmark datasets.
